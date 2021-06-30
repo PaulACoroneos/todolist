@@ -5,7 +5,7 @@ import { Footer } from '../components/Footer'
 
 export default function Home () {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen m-auto max-w-full md:max-w-2xl lg:max-w-4xl">
       <Head>
         <title>Paul Todolist</title>
         <meta name="Coroneos Todolist" content="Todolist by Paul Coroneos" />
